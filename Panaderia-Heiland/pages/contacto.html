@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Dela+Gothic+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/b45e073eae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <button class="nav--toggle">
+            <i class="header__icono fa-solid fa-bars"></i>
+        </button>
+        <nav class="nav">
+            <ul class="nav__lista">
+                <li class="nav__item">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./panificados.html">Panificados</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./pasteleria.html">Pasteleria</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./contacto.html">contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="subtitulo">
+        <h2 class="sub-posicion">Contactanos</h2>
+    </div>
+
+    <form action="" class="grid__contacto">
+        <div class="contact__list">
+            <div class="contact__item-1">
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre" name="nombre" placeholder="ingrese su nombre..">
+            </div>
+
+            <div class="contact__item-1">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="ingrese su apellido..">
+            </div>
+
+            <div class="contact__item-1">
+                <label for="cel">Celular:</label>
+                <input type="text" id="cel" name="cel" placeholder="ingrese aqui..">
+            </div>
+
+            <div class="contact__item-1">
+                <label for="mail">Email:</label>
+                <input type="text" id="mail" name="mail" placeholder="ingrese su Email..">
+            </div>
+
+            <div class="contact__item-1">
+                <label for="tipo">Tipo de Mensaje:</label>
+                <select name="tipo" id="tipo">
+                    <option value="consulta">consulta</option>
+                    <option value="sugerencia">sugerencia</option>
+                    <option value="comprar">comprar</option>
+                    <option value="presupuesto">presupuesto</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="contact__mensaje">
+            <div>
+                <label for="mensaje">Mensaje</label>
+            </div>
+
+            <div>
+                <textarea name="mensaje" id="mensaje" cols="25" rows="20"></textarea>
+            </div>
+
+            <div class="contact__botones">
+                <button>Enviar</button>
+                <button>Limpiar</button>
+            </div>
+        </div>
+
+        <div class="contact__gps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.2385052788201!2d-62.69515950154649!3d-38.825299080389776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf2ba3b6278e07e4!2spanaderia%20paz!5e0!3m2!1ses-419!2sar!4v1649226546920!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+    </form>
+
+    <footer class="footer foot__back">
+        <ul class="footer__icon">
+            <li><a href="https://www.instagram.com/"><img src="../images/icono--instagram.ico" alt="Instagram"
+                        width="40" height="40"></a></li>
+            <li><a href="https://web.whatsapp.com/"><img src="../images/icono--wp.ico" alt="Whatsapp" width="40"
+                        height="40"></a></li>
+            <li><a href="https://www.facebook.com/"><img src="../images/icono--fb.ico" alt="Facebook" width="40"
+                        height="40"></a></li>
+        </ul>
+
+        <div class="footer__derechos">
+            <h5>Derechos Reservados - Paz 2022</h5>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
