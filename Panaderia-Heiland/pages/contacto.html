@@ -11,13 +11,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Dela+Gothic+One&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../Js/bootstrap.bundle.min.js"></script>
+
     <link rel="stylesheet" href="../css/estilos.css">
     <script src="https://kit.fontawesome.com/b45e073eae.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="container border-bottom">
         <button class="nav--toggle">
             <i class="header__icono fa-solid fa-bars"></i>
         </button>
@@ -47,53 +50,47 @@
         <h2 class="sub-posicion">Contactanos</h2>
     </div>
 
-    <form action="" class="grid__contacto">
-        <div class="contact__list">
-            <div class="contact__item-1">
-                <label for="Nombre">Nombre:</label>
-                <input type="text" id="Nombre" name="nombre" placeholder="ingrese su nombre..">
+    <section class="grid__contacto">
+        <form class="container" action="">
+
+            <div>
+                <input class="form-control mb-2" type="text" name="nombre" placeholder="ingrese su nombre..">
             </div>
 
-            <div class="contact__item-1">
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" placeholder="ingrese su apellido..">
+            <div>
+                <input class="form-control mb-2" type="text" name="apellido" placeholder="ingrese su apellido..">
             </div>
 
-            <div class="contact__item-1">
-                <label for="cel">Celular:</label>
-                <input type="text" id="cel" name="cel" placeholder="ingrese aqui..">
+            <div>
+                <input class="form-control mb-2" type="text" name="cel" placeholder="ingrese su telefono..">
             </div>
 
-            <div class="contact__item-1">
-                <label for="mail">Email:</label>
-                <input type="text" id="mail" name="mail" placeholder="ingrese su Email..">
+            <div>
+                <input class="form-control mb-3" type="text" id="mail" name="mail" placeholder="ingrese su Email..">
             </div>
 
-            <div class="contact__item-1">
-                <label for="tipo">Tipo de Mensaje:</label>
-                <select name="tipo" id="tipo">
+            <div>
+                <label for="tipo">
+                    <p>Tipo de Mensaje:</p>
+                </label>
+                <select class="mb-3" name="tipo" id="tipo">
                     <option value="consulta">consulta</option>
                     <option value="sugerencia">sugerencia</option>
                     <option value="comprar">comprar</option>
                     <option value="presupuesto">presupuesto</option>
                 </select>
             </div>
-        </div>
-
-        <div class="contact__mensaje">
             <div>
-                <label for="mensaje">Mensaje</label>
-            </div>
+                <div>
+                    <textarea class="form-control mb-2" rows="5" placeholder="mensaje"></textarea>
+                </div>
 
-            <div>
-                <textarea name="mensaje" id="mensaje" cols="25" rows="20"></textarea>
+                <div>
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    <button class="btn btn-primary" type="reset">Limpiar</button>
+                </div>
             </div>
-
-            <div class="contact__botones">
-                <button>Enviar</button>
-                <button>Limpiar</button>
-            </div>
-        </div>
+        </form>
 
         <div class="contact__gps">
             <iframe
@@ -102,8 +99,8 @@
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
+    </section>
 
-    </form>
 
     <footer class="footer foot__back">
         <ul class="footer__icon">
