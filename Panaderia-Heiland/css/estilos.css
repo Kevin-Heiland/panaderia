@@ -60,8 +60,8 @@ a {
     font-weight: 700;
     font-style: inherit;
     text-align: center;
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
-    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.925)
+    /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
+    /* text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.925) */
 }
 
 
@@ -501,8 +501,7 @@ iframe {
     a {
         font-size: 22px;
         font-weight: 400;
-        -webkit-text-stroke: 1px rgb(0, 0, 0);
-        text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.925);
+        
 
     }
     
@@ -595,8 +594,7 @@ iframe {
     a {
         font-size: 20px;
         font-weight: 400;
-        -webkit-text-stroke: 1px rgb(0, 0, 0);
-        text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.925);
+        
 
     }
 }
