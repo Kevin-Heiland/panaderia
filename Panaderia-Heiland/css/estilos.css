@@ -228,10 +228,6 @@ p {
 
 }
 
-iframe {
-    width: 100% !important;
-
-}
 
 .sub-posicion {
     text-align: center;
@@ -790,11 +786,7 @@ iframe {
     }
 
 
-    iframe {
-        width: 85% !important;
-        height: 70% !important;
-
-    }
+      
 
 
 }
