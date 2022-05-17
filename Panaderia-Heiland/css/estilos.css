@@ -182,7 +182,7 @@ p {
 
 /* contacto */
 
-.grid__contacto {
+.contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* grid-auto-rows: 50% 50%; */
