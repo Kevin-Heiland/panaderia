@@ -84,10 +84,6 @@
 
 @media screen and (max-width: 425px) {
 
-    body {
-        background-image: none;
-        background-color: rgba(31, 105, 89, 0.795);
-    }
 
     .nav {
         display: none;
@@ -106,12 +102,13 @@
 
     .subtitulo {
         text-align: left;
-        font-size: 25px;
+        font-size: 20px;
         width: 100%;
         max-width: 400px;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
 
     }
+
 
     .titulo {
         font-size: 34px;
@@ -121,14 +118,23 @@
     .parrafo {
         font-family: Arial, Helvetica, sans-serif;
         width: 100%;
-        max-width: 400px;
         height: 62%;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.3rem;
         letter-spacing: 1.4px;
-        color: rgb(5, 5, 5);
+        color: rgb(26, 25, 25);
 
+
+    }
+
+    iframe {
+        border: 2px solid black;
+        background-color: rgba(216, 160, 221, 0.514);
+        margin: 0;
+        height: 300px;
+        
+        
 
     }
 
