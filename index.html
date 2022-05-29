@@ -13,50 +13,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Dela+Gothic+One&display=swap"
         rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,400;1,500&display=swap"rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.png">
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <script src="../Js/bootstrap.bundle.min.js"></script>
+    <script src="./Js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/b45e073eae.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="container border-bottom">
-        <button class="nav--toggle">
-            <i class="header__icono fa-solid fa-bars"></i>
-        </button>
-        <nav class="nav">
-            <ul class="nav__lista">
-                <li class="nav__item">
-                    <a class="navindex" href="index.html">Inicio</a>
-                </li>
-                <li class="nav__item">
-                    <a class="navindex" href="./pages/panificados.html">Panificados</a>
-                </li>
-                <li class="nav__item">
-                    <a class="navindex" href="./pages/pasteleria.html">Pasteleria</a>
-                </li>
-                <li class="nav__item">
-                    <a class="navindex" href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav__item">
-                    <a class="navindex" href="./pages/contacto.html">Contacto</a>
-                </li>
-
-            </ul>
-        </nav>
-
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./pages/panificados.html">Panificados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/pasteleria.html">Pasteleria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <main>
         <h1 class="titulo">PANADERIA PAZ</h1>
         <section class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-xs-12 mb-2">
                     <h3 class="subtitulo">Lo mas rico en panificados y pasteleria:</h3>
                     <p class="parrafo">Convencidos de que los sabores más deliciosos son generadores de grandes
                         momentos,
@@ -65,13 +65,14 @@
                         del mismo origen. la nobleza de la harina como materia prima. Para lograrlo, nos focalizamos en
                         tres
                         pilares fundamentales:
-                        <ul class="parrafo">
-                            <li>Calidad en cada ingrediente.</li>
-                            <li>Idoneidad en la mano de obra.</li>
-                            <li>Frescura en la
-                                permanente elaboración.</li>
-                        </ul> 
-                        </p>
+                    </p>
+                    <ul class="parrafo-ul">
+                        <li>Calidad en cada ingrediente.</li>
+                        <li>Idoneidad en la mano de obra.</li>
+                        <li>Frescura en la
+                            permanente elaboración.</li>
+                    </ul>
+
 
                 </div>
                 <div class="col-lg-6 col-md-6 col-xs-12 pt-5">
@@ -88,7 +89,7 @@
     </main>
 
     <footer class="bg-dark text-center text-white ">
-        <div class="container p-4 pb-0">
+        <div class="container p-4 pb-2">
 
             <section class="mb-4">
 

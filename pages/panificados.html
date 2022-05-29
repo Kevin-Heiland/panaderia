@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,400;1,500&display=swap"
         rel="stylesheet">
+        <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="../Js/bootstrap.bundle.min.js"></script>
 
@@ -24,64 +25,72 @@
 </head>
 
 <body>
-    <header class="container border-bottom">
-        <button class="nav--toggle">
-            <i class="header__icono fa-solid fa-bars"></i>
-        </button>
-        <nav class="nav">
-            <ul class="nav__lista">
-                <li class="nav__item">
-                    <a class="navcolor" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav__item">
-                    <a class="navcolor" href="./panificados.html">Panificados</a>
-                </li>
-                <li class="nav__item">
-                    <a class="navcolor" href="./pasteleria.html">Pasteleria</a>
-                </li>
-                <li class="nav__item">
-                    <a class="navcolor" href="./nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav__item">
-                    <a class="navcolor" href="./contacto.html">Contacto</a>
-                </li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/pages/panificados.html">Panificados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/pasteleria.html">Pasteleria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </nav>
 
     <main class="fondo-1">
         <div>
             <h1 class="titulo">PANADERIA PAZ</h1>
         </div>
         <div class="subtitulo">
-            <h3>
+            <h2>
                 Panificados
-            </h3>
+            </h2>
         </div>
 
         <section class="galeria__panificados">
             <div class="galeria__item-1 grid__titulo animaciones">
-                <img src="../images/chipa.jpg" alt="ele1" class="galeria__img">
+                <img src="../images/chipa.jpg" alt="chipa" class="galeria__img">
                 <h2 class="galeria__titulo">Chipa</h2>
             </div>
             <div class="galeria__item-2 grid__titulo animaciones">
-                <img src="../images/bizcochos.jpg" alt="ele2" class="galeria__img">
+                <img src="../images/bizcochos.jpg" alt="bizcochitos" class="galeria__img">
                 <h2 class="galeria__titulo">Bizcochos</h2>
             </div>
             <div class="galeria__item-3 grid__titulo animaciones">
-                <img src="../images/mignones.jpeg" alt="ele3" class="galeria__img">
+                <img src="../images/mignones.jpeg" alt="mignones" class="galeria__img">
                 <h2 class="galeria__titulo">Mignones</h2>
             </div>
             <div class="galeria__item-4 grid__titulo animaciones">
-                <img src="../images/trinchas.jpg" alt="ele4" class="galeria__img">
+                <img src="../images/trinchas.jpg" alt="trinchas" class="galeria__img">
                 <h2 class="galeria__titulo">Trinchas</h2>
             </div>
             <div class="galeria__item-5 grid__titulo animaciones">
-                <img src="../images/grisines.jpg" alt="ele5" class="galeria__img">
+                <img src="../images/grisines.jpg" alt="grisines" class="galeria__img">
                 <h2 class="galeria__titulo">Grisines</h2>
             </div>
             <div class="galeria__item-6 grid__titulo animaciones">
-                <img src="../images/pan-hamburguesas.jpeg" alt="ele6" class="galeria__img">
+                <img src="../images/pan-hamburguesas.jpeg" alt="pan hambu" class="galeria__img">
                 <h2 class="galeria__titulo">Pan de sesamo</h2>
             </div>
         </section>
