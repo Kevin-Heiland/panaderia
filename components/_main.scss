@@ -253,7 +253,7 @@ p {
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 25% 25% 25% 25%;
+    grid-auto-rows: 200px;
     column-gap: 4rem;
     grid-template-areas:
         "ele1 ele3"
