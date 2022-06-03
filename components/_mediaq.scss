@@ -67,7 +67,7 @@
 
         .nosotros__2 {
 
-            padding-top: 5rem;
+            padding-top: 2rem;
 
 
         }
@@ -82,7 +82,7 @@
 }
 
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 650px) {
 
 
         .galeria__titulo {
@@ -102,6 +102,40 @@
 
         
         
+    }
+
+    .grid__nosotros {
+        
+
+
+
+        .nosotros__1 {
+            justify-content: left;
+            padding-bottom: 1rem;
+
+
+        }
+
+        .nosotros__2 {
+            padding-bottom: 1rem;
+
+
+        }
+
+        .nosotros__3 {
+            padding-top: 1rem;
+            padding-right: 1rem;
+
+
+        }
+
+        .nosotros-parrafo {
+            color: black;
+            padding-left: 2rem;
+            font-size: 25px;
+            letter-spacing: 2px;
+            line-height: 25px;
+        }
     }
 
     @media screen and (max-width: 425px) {
@@ -230,11 +264,10 @@
             .nosotros-parrafo {
                 color: black;
                 padding-left: 2rem;
-                font-size: 20px;
                 font-family: 'Beau Rivage', cursive;
-                font-size: 30px;
+                font-size: 22px;
                 letter-spacing: 2px;
-                line-height: 30px;
+                line-height: 25px;
             }
         }
 
