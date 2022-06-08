@@ -13,11 +13,11 @@ body {
     background-color: $bgfondo;
     background-size: cover;
     font-style: initial;
-    
+
 }
 
 // main
-main{
+main {
     min-height: calc(100vh - 205px);
 }
 
@@ -132,7 +132,7 @@ p {
         object-fit: cover;
         width: 100%;
         height: 100%;
-        
+
 
     }
 }
@@ -222,14 +222,14 @@ p {
         object-fit: cover;
         width: 100%;
         height: 100%;
-        
+
 
     }
 }
 
 
 .animaciones:hover img {
-    transform: scale(1.05);
+    transform: scale(1.10);
     transition: all 2s;
 }
 
@@ -241,7 +241,7 @@ p {
     }
 
     to {
-        transform: scale(1.05);
+        transform: scale(1.10);
 
     }
 
@@ -286,21 +286,10 @@ p {
 
     }
 
-    .nosotros-parrafo{
-        color: black;
-    }
-
-    p {
-        padding-left: 2rem;
-        font-size: 20px;
-        font-family: 'Beau Rivage', cursive;
-        font-size: 35px;
-        letter-spacing: 2px;
-        line-height: 50px;
-    }
-
+   
 
 }
+
 
 // Contacto 
 .botones {
